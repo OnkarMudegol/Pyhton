@@ -10,4 +10,8 @@ elif age3 > age1 and age3 > age2:print("The oldest age is:", age3)
 if age1 < age2 and age1 < age3:print("The youngest age is:", age1)
 elif age2 < age1 and age2 < age3:print("The youngest age is:", age2)
 elif age3 < age1 and age3 < age2:print("The youngest age is:", age3)
+
+if age1 == age2:print("First two ages are same.")
+elif age1 == age3:print("First and third age is equal.")
+elif age2 == age3:print("Last two ages are equal.") 
 else:print("All are of same age.")
