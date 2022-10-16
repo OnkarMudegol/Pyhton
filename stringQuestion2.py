@@ -5,3 +5,4 @@ a=len(string)
 b=("ing")
 if a>3:print(string+b)
 else:print(string)
+
