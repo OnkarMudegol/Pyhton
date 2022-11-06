@@ -3,5 +3,5 @@ a=int(input("a:"))
 b=int(input("b:"))
 def substract(a,b):
     substract=a-b
-    print("The difference is:",substract)
+    print("The diff is:",substract)
 substract(a,b)
