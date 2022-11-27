@@ -10,3 +10,10 @@ tuple4 = (1,2,3,[4,5,6],7,8)               #lists inside a tuple
 print(tuple4[3][1])                      #ascessing elements inside list
 tuple4[3][2]=8                             
 print(tuple4)
+tuple5 = (30,40)
+tuple6 = (10,20,30)
+temp= tuple5
+tuple5 = tuple6
+tuple6 = temp
+print(tuple5)
+print(tuple6)
