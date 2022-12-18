@@ -4,7 +4,7 @@ class Laptop:                 #defining a class
     #     self.name = "Asus" 
     #     self.processor =  "i9"
     #     self.ssd =  "1TB"
-    def __init__(self, name, processor):
+    def __init__(self, name, processor): #init is a constructor, whenever the function starts it works
         self.name = name
         self.processor =  processor
     # def Asus(self):
